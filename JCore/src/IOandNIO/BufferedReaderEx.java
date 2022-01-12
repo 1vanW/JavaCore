@@ -5,8 +5,8 @@ import java.io.*;
 public class BufferedReaderEx {
     public static void main(String[] args) {
 
-        try(BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\vinev\\Desktop\\test.txt"));
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\vinev\\Desktop\\test1.txt"))
+        try(BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\vinev\\Desktop\\pejzazhi-priroda-trava-xolmy-svet-utro-oblako-oblaka.jpg"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("java_pic.jpeg"))
         ){
 //            int character;
 //            while ((character = reader.read()) != -1){
