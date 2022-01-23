@@ -16,9 +16,9 @@ public class RandomAccesFile {
 
             System.out.println(str);
 
-            randomAccessFile.seek(0);
 
-            randomAccessFile.writeBytes();
+
+
 
 
         } catch (FileNotFoundException e) {
